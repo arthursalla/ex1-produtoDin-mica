@@ -1,0 +1,105 @@
+.main-header{
+	background: #222;
+	padding: 20px 40px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.main-nav ul{
+	list-style: none; 
+	display: flex;
+	gap: 40px;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #222;
+  line-height: 1.5;
+}
+
+main {
+display: flex;
+gap: 200px ;
+}
+
+
+
+.principal {
+  border: 1px solid #eee;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.galeriaDeProdutos {
+display: flex;
+gap: 10px;
+}
+
+.principal img {
+  width: 500px;
+}
+
+.camisas {
+  display: flex;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.miniaturas {
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.mini-container {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.miniaturas img {
+  width: 100px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: scale 0.2s ease;
+  margin-top: -20px;
+}
+
+.miniaturas img:hover{
+  scale: 1.1;
+}
+
+.cores button {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: 1px sole black;
+
+  &:hover{
+  scale: 1.1;
+  cursor: pointer;}
+}
+
+/*-----BOTOES----*/
+.branco {
+background-color: white;
+}
+.azul {
+background-color: blue;
+}
+.preto {
+background-color: black;}
+
+.cores {
+  margin: 30px 0;
+}
+
+
+
+
